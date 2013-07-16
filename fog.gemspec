@@ -51,7 +51,7 @@ Gem::Specification.new do |s|
 
   # Nokogiri >= 1.6 drops support for Ruby 1.8.7 so should not be used
   # See https://github.com/fog/fog/issues/1878 for more details
-  s.add_dependency('nokogiri', '~>1.5.0')
+  s.add_dependency('nokogiri', '>=1.5.0')
 
   ## List your development dependencies here. Development dependencies are
   ## those that are only needed during development
